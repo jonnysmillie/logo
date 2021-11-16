@@ -23,9 +23,7 @@ function createLogo(options = {}) {
   setAttribute(container, 'class', 'mm-logo');
   setAttribute(container, 'align', 'center');
   setAttribute(container, 'style', 'margin: auto; display:block');
-  
-  var container2 = document.getElementById(‘logo-container’);
-  container2.appendChild(container);
+  document.body.appendChild(container);
 
   setGradientDefinitions(container, meshJson.gradients);
   setMaskDefinitions({ container, masks: meshJson.masks, height, width });
