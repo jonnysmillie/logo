@@ -24,7 +24,6 @@ function createLogo(options = {}) {
   setAttribute(container, 'align', 'center');
   setAttribute(container, 'style', 'margin: auto; display:block');
   document.body.appendChild(container);
-  
   const container2 = document.getElementById('logo-container');
   container2.appendChild(container);
 
