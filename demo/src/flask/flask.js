@@ -13,8 +13,8 @@ document.addEventListener('keypress', function (event) {
 });
 
 createViewer({
-  width: 0.4,
-  height: 0.4,
+  width: 0.2,
+  height: 0.2,
   followMouse: true,
   followMotion: true,
   meshJson,
