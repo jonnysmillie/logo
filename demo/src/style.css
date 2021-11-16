@@ -16,4 +16,7 @@ div{
 
 svg {
   overflow: visible;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
