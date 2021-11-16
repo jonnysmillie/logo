@@ -25,7 +25,7 @@ function createLogo(options = {}) {
   setAttribute(container, 'style', 'margin: auto; display:block');
   document.body.appendChild(container);
   
-  var container2 = document.getElementById('logo-container');
+  const container2 = document.getElementById('logo-container');
   container2.appendChild(container);
 
   setGradientDefinitions(container, meshJson.gradients);
