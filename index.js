@@ -18,8 +18,8 @@ function createLogo(options = {}) {
   const meshJson = options.meshJson || foxJson;
 
   const container = createNode('svg');
-  setAttribute(container, 'width', `${width}px`);
-  setAttribute(container, 'height', `${height}px`);
+  setAttribute(container, 'width', '100%');
+  setAttribute(container, 'height', '100%');
   setAttribute(container, 'class', 'mm-logo');
   setAttribute(container, 'align', 'center');
   setAttribute(container, 'style', 'margin: auto; display:block');
