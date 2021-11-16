@@ -14,7 +14,7 @@ document.addEventListener('keypress', function (event) {
 
 createViewer({
   width: 0.2,
-  height: 0.2,
+  height: 0.4,
   followMouse: true,
   followMotion: true,
   meshJson,
