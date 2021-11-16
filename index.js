@@ -20,7 +20,7 @@ function createLogo(options = {}) {
   const container = createNode('svg');
   setAttribute(container, 'width', `${width}px`);
   setAttribute(container, 'height', `${height}px`);
-  setAttribute(container, "class", "mm-logo");
+  setAttribute(container, 'class', 'mm-logo');
   document.body.appendChild(container);
 
   setGradientDefinitions(container, meshJson.gradients);
