@@ -26,7 +26,7 @@ function createLogo(options = {}) {
   document.body.appendChild(container);
   
   var container2 = document.getElementById('logo-container');
-  container2.appendChild(viewer.container);
+  container2.appendChild(container);
 
   setGradientDefinitions(container, meshJson.gradients);
   setMaskDefinitions({ container, masks: meshJson.masks, height, width });
